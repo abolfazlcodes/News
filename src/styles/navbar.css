@@ -1,0 +1,39 @@
+/* **************************** navbar component styles ****************************** */
+.navbar {
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5rem 9rem;
+  gap: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.navbar__list {
+  /* to make the list take the most space available */
+  flex: 0.7;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.navbar__list .navbar__list__item a {
+  color: var(--text-color);
+  text-transform: capitalize;
+}
+
+.navbar__actions {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1rem;
+}
+
+.navbar__actions__btn {
+  color: var(--text-color);
+}
