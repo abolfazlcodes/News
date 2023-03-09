@@ -38,3 +38,48 @@ body {
 .section {
   padding: 2rem 9rem;
 }
+
+.breaking__news {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: var(--primary-color);
+}
+
+.btn {
+  background: none;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.breaking__news--btn {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.breaking__news--text {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+@media screen and (max-width: 715px) {
+  .btn {
+    padding: 0.6rem;
+  }
+
+  .breaking__news--text {
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+  }
+
+  .breaking__news {
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+}
