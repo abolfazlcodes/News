@@ -39,6 +39,14 @@ body {
   padding: 2rem 9rem;
 }
 
+.credits {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+
 .breaking__news {
   border: 1px solid red;
   display: flex;
@@ -79,7 +87,4 @@ body {
   .breaking__news {
     gap: 0.5rem;
   }
-}
-
-@media screen and (max-width: 415px) {
 }
