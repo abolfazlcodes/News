@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../src/styles/common.css" />
+    <link rel="stylesheet" href="../src/styles/navbar.css" />
+    <link rel="stylesheet" href="../src/styles/hero.css" />
+    <link rel="stylesheet" href="../src/styles/podcast.css" />
+    <link rel="stylesheet" href="../src/styles/footer.css" />
+    <title>NBC NEWS - PODCASTS</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img
+          src="../assets/images/logo.png"
+          alt="NBC NEWS LOGO"
+          class="logo__image"
+        />
+      </div>
+
+      <!-- Navbar Items list -->
+      <ul class="navbar__list">
+        <li class="navbar__list__item">
+          <a href=""> Business </a>
+        </li>
+        <li class="navbar__list__item">
+          <a href=""> Movies </a>
+        </li>
+        <li class="navbar__list__item">
+          <a href=""> sports </a>
+        </li>
+        <li class="navbar__list__item">
+          <a href=""> Travel </a>
+        </li>
+        <li class="navbar__list__item">
+          <a href=""> Podcasts </a>
+        </li>
+      </ul>
+
+      <!-- Navbar action buttons -->
+      <div class="navbar__actions">
+        <a href="#" class="navbar__actions__btn">
+          <i class="fa-regular fa-user"></i>
+        </a>
+        <a href="#" class="navbar__actions__btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <a href="#" class="navbar__actions__btn menu__btn hidden">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- hero section part -->
+      <section class="section hero__section">
+        <div class="hero__image">
+          <img
+            src="../assets/images/news.jpg"
+            alt="News image"
+            class="hero__image--img"
+          />
+        </div>
+
+        <div class="hero__content">
+          <header class="hero__content__header">
+            <span class="tag">trending</span>
+            <div class="hero__content__header__actions">
+              <span class="hero__content__header__actions--btn"
+                ><i class="fa-regular fa-heart"></i
+              ></span>
+              <span class="hero__content__header__actions--btn"
+                ><i class="fa-regular fa-paper-plane"></i
+              ></span>
+              <span class="hero__content__header__actions--btn"
+                ><i class="fa-regular fa-bookmark"></i
+              ></span>
+            </div>
+          </header>
+
+          <div class="hero__content__title">
+            <h1 class="title">
+              Cake meme reflects coronavirus absurdity in a world where nothing
+              is what it seems
+            </h1>
+          </div>
+
+          <div class="hero__content__description">
+            <p class="description">
+              Earlier this month, a viral video depicting hyper-realistic cakes
+              as everyday items had folks on social media double-guessing every
+              other post, and sometimes even their own realities, effectively
+              launching the next meme : “Is this real or is this cake?”
+            </p>
+          </div>
+
+          <div class="credits">
+            <span class="credits--time">2 hours ago</span>
+            <span class="credits--author">By Lucy Hiddleston | 4min read</span>
+          </div>
+        </div>
+      </section>
+      <section class="section breaking__section">
+        <div class="breaking__news">
+          <button class="btn breaking__news--btn">Breaking News</button>
+          <span class="breaking__news--text">
+            Kanye West says he's running for president in 2020.
+          </span>
+        </div>
+      </section>
+
+      <section class="section podcasts__section">
+        <header class="section__header">
+          <h1 class="section__header--title">our latest episodes</h1>
+        </header>
+
+        <div class="podcasts__wrapper">
+          <article class="podcast">
+            <img
+              src="../assets/images/podcast.jpg"
+              alt="podcast cover"
+              class="podcast__cover"
+            />
+            <div class="podcast__details">
+              <div class="podcast__credits">
+                <span class="podcast__details--episode">ep 334</span>
+                <span class="podcast__details--author">with Eric Martin</span>
+              </div>
+              <span class="podcast__actions">
+                <i class="fa-regular fa-circle-play"></i>
+                <!-- <i class="fa-regular fa-circle-pause"></i> -->
+              </span>
+            </div>
+          </article>
+
+          <article class="podcast">
+            <img
+              src="../assets/images/podcast.jpg"
+              alt="podcast cover"
+              class="podcast__cover"
+            />
+            <div class="podcast__details">
+              <div class="podcast__credits">
+                <span class="podcast__details--episode">ep 334</span>
+                <span class="podcast__details--author">with Eric Martin</span>
+              </div>
+              <span class="podcast__actions">
+                <i class="fa-regular fa-circle-play"></i>
+                <!-- <i class="fa-regular fa-circle-pause"></i> -->
+              </span>
+            </div>
+          </article>
+
+          <article class="podcast">
+            <img
+              src="../assets/images/podcast.jpg"
+              alt="podcast cover"
+              class="podcast__cover"
+            />
+            <div class="podcast__details">
+              <div class="podcast__credits">
+                <span class="podcast__details--episode">ep 334</span>
+                <span class="podcast__details--author">with Eric Martin</span>
+              </div>
+              <span class="podcast__actions">
+                <i class="fa-regular fa-circle-play"></i>
+                <!-- <i class="fa-regular fa-circle-pause"></i> -->
+              </span>
+            </div>
+          </article>
+
+          <article class="podcast">
+            <img
+              src="../assets/images/podcast.jpg"
+              alt="podcast cover"
+              class="podcast__cover"
+            />
+            <div class="podcast__details">
+              <div class="podcast__credits">
+                <span class="podcast__details--episode">ep 334</span>
+                <span class="podcast__details--author">with Eric Martin</span>
+              </div>
+              <span class="podcast__actions">
+                <i class="fa-regular fa-circle-play"></i>
+                <!-- <i class="fa-regular fa-circle-pause"></i> -->
+              </span>
+            </div>
+          </article>
+
+          <article class="podcast">
+            <img
+              src="../assets/images/podcast.jpg"
+              alt="podcast cover"
+              class="podcast__cover"
+            />
+            <div class="podcast__details">
+              <div class="podcast__credits">
+                <span class="podcast__details--episode">ep 334</span>
+                <span class="podcast__details--author">with Eric Martin</span>
+              </div>
+              <span class="podcast__actions">
+                <i class="fa-regular fa-circle-play"></i>
+                <!-- <i class="fa-regular fa-circle-pause"></i> -->
+              </span>
+            </div>
+          </article>
+
+          <article class="podcast">
+            <img
+              src="../assets/images/podcast.jpg"
+              alt="podcast cover"
+              class="podcast__cover"
+            />
+            <div class="podcast__details">
+              <div class="podcast__credits">
+                <span class="podcast__details--episode">ep 334</span>
+                <span class="podcast__details--author">with Eric Martin</span>
+              </div>
+              <span class="podcast__actions">
+                <i class="fa-regular fa-circle-play"></i>
+                <!-- <i class="fa-regular fa-circle-pause"></i> -->
+              </span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__logo">
+        <img
+          src="../assets/icons/footer logo.png"
+          alt="logo"
+          class="footer__logo--img"
+        />
+        <span class="copyright">copyright &copy; 2020 | NBC NEWS</span>
+      </div>
+      <div class="links">
+        <ul class="links__list">
+          <li class="links__list--item">Privacy Policy</li>
+          <li class="links__list--item">Do not sell my personal info</li>
+          <li class="links__list--item">Terms of Service</li>
+        </ul>
+      </div>
+      <div class="socials">
+        <ul class="socials__list socials__links">
+          <li class="socials__list--item">about</li>
+          <li class="socials__list--item">contact</li>
+          <li class="socials__list--item">careers</li>
+          <li class="socials__list--item">coupons</li>
+        </ul>
+        <ul class="socials__list socials__icons">
+          <li class="socials__list--item">
+            <img src="../assets/icons/radar icon.png" alt="radar icon" />
+          </li>
+          <li class="socials__list--item">
+            <img src="../assets/icons/twitter.png" alt="twitter icon" />
+          </li>
+          <li class="socials__list--item">
+            <img src="../assets/icons/reddit.png" alt="reddit icon" />
+          </li>
+          <li class="socials__list--item">
+            <img src="../assets/icons/facebook.png" alt="facebook icon" />
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

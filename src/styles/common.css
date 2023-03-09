@@ -24,6 +24,8 @@ body {
   font-family: "Nunito Sans", sans-serif;
   font-size: 62.5%;
   background-color: var(--main-background-color);
+  /* max-width: 1500px;
+  margin: auto; */
 }
 
 .hidden {
@@ -36,7 +38,7 @@ body {
 }
 
 .section {
-  padding: 2rem 9rem;
+  padding: 1rem 9rem;
 }
 
 .credits {
@@ -48,7 +50,6 @@ body {
 }
 
 .breaking__news {
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
